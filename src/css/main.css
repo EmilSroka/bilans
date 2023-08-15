@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mask-radial-gradient {
+    mask-image: radial-gradient(100% 100% at top left, rgba(255, 255, 255, 0.5), transparent);
+}
+
+.mask-radial-gradient-center {
+    mask-image: radial-gradient(50% 50% at center center, rgba(255, 255, 255, 0.3), transparent);
+}
+
+.mask-radial-gradient-right {
+    mask-image: radial-gradient(100% 100% at top right, rgba(255, 255, 255, 0.5), transparent);
+}
+
+html {
+    scroll-behavior: smooth;
+}
